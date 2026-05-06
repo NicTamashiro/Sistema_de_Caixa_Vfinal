@@ -163,7 +163,7 @@ void simular_venda(Caixa *c){
 
     int usados[NUM_DENOMINACOES];
     if(!decompor(c,troco, usados)){
-        printf("\n  Caixa sem notas/moedas suficientes para o troco.\n");
+        printf("\n  Caixa sem notas/moedas insuficientes para o troco.\n");
         aguardar();
         return;
     }
