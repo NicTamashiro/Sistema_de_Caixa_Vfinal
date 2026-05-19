@@ -228,7 +228,7 @@ int main(void) {
                 printf("Encerrando o sistema. Ate logo!\n\n");
                 break;
             default:
-                printf("    Opcao invalida.\n");
+                printf("  Opcao invalida.\n");
                 aguardar();
         }
     } while (opcao != 0);

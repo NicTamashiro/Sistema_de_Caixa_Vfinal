@@ -216,7 +216,7 @@ int main(){
                 printf("Encerrando o sistema. Ate logo!\n\n");
                 break;
             default:
-                printf("    Opcao invalida.\n");
+                printf("  Opcao invalida.\n");
                 aguardar();
         }
 
