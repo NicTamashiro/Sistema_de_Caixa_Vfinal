@@ -67,7 +67,7 @@ int ler_inteiro(const char *prompt){
         valido = (scanf("%d", &v) == 1 && v>= 0);
         limpar_buffer();
         if(!valido) {
-            printf("  Entrada invalida.\n\n");
+            printf("  Entrada invalida. Digite apenas numeros inteiros!\n\n");
         }
     } while (!valido);
     return v;
